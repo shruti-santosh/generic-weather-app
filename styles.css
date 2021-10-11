@@ -1,0 +1,50 @@
+body {
+    background-color: #dfe7ee;
+    line-height: 1.5;
+    font-size: 125%;
+    display: flex;
+    font-family: sans-serif;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 0 4.5em 7em;
+    margin: 1em auto 0 auto;
+    -webkit-filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.1));
+  }
+
+  h1 {
+    border-bottom: 4px solid deepskyblue;
+    padding-bottom: 0.25em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .input {
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-weather {
+    display: none;
+    line-height: 2.2rem;
+    height: 30vh;
+    text-align: center;
+    color: #23313e;
+    font-weight: bold;
+  }
+  
+  .temp {
+    margin: 25px;
+    font-size: 40pt;
+  }
+
+  
+
